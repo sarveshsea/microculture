@@ -48,7 +48,7 @@ function structure(g,colony,time,detail,localHand,exporting,scale,wedge,reveal=1
   const occupancy=new Map();
   const alpha=g.globalAlpha,parents=new Map(colony.segments.map(s=>[s.id,s]));
   for(const segment of [...colony.segments].sort((a,b)=>(b.z||0)-(a.z||0))) {
-    
+
     const emergence=globalThis.MicroTissueAppearance?MicroTissueAppearance.emergence(colony.seed,segment.lineage||0,reveal):reveal,growth=.08+.92*emergence;
     const health=F.health(segment,time),rawEnd=F.tipPosition(segment,time);
     const fold=(x,y)=>{let a=((Math.atan2(y,x)%(wedge*2))+wedge*2)%(wedge*2);if(a>wedge)a=wedge*2-a;const r=Math.hypot(x,y);return {x:Math.cos(a)*r,y:Math.sin(a)*r};};
