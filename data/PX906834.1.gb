@@ -1,0 +1,59 @@
+LOCUS       PX906834                 504 bp    DNA     linear   PLN 12-APR-2026
+DEFINITION  Asterochloris glomerata isolate J69 actin type I (act1) gene,
+            partial cds.
+ACCESSION   PX906834
+VERSION     PX906834.1
+KEYWORDS    .
+SOURCE      Asterochloris glomerata
+  ORGANISM  Asterochloris glomerata
+            Eukaryota; Viridiplantae; Chlorophyta; core chlorophytes;
+            Trebouxiophyceae; Trebouxiales; Trebouxiaceae; Asterochloris.
+REFERENCE   1  (bases 1 to 504)
+  AUTHORS   Konecna,E., Steinova,J., Cernajova,I. and Grewe,F.
+  TITLE     Unravelling the secret of phantom phenotypes in macrolichens:
+            insights from cladonia bellidiflora complex
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 504)
+  AUTHORS   Konecna,E., Steinova,J., Cernajova,I. and Grewe,F.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (21-JAN-2026) Botany, Charles University, Faculty of
+            Science, Benatska 2, Praha 2 128 00, Czech Republic
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..504
+                     /organism="Asterochloris glomerata"
+                     /mol_type="genomic DNA"
+                     /isolate="J69"
+                     /isolation_source="lichen thallus"
+                     /host="Cladonia bellidiflora"
+                     /specimen_voucher="Steinova 941c (PRC)"
+                     /db_xref="taxon:174040"
+                     /geo_loc_name="Norway: Trondelag"
+                     /lat_lon="64.1464358 N 11.9431122 E"
+                     /collection_date="2021"
+     gene            <1..>504
+                     /gene="act1"
+     mRNA            <133..>257
+                     /gene="act1"
+                     /product="actin type I"
+     CDS             <133..>257
+                     /gene="act1"
+                     /note="ATP binding site"
+                     /codon_start=3
+                     /product="actin type I"
+                     /protein_id="YDU33086.1"
+                     /translation="REIVRDIKEKLAYVALDYEQELATAASSSTIEKSYELPDGQ"
+ORIGIN      
+        1 ctgccacttt ctgcaaggat ctgttggtgc atctctgtgt gcagctggtt gctgtgctgg
+       61 gactgctgtt gcatagtacc ctctgacagg ctgaaggctg attttctgaa atcaccatca
+      121 atttgcacgc agagcgtgaa attgtgcggg atatcaagga gaagctggca tatgtggctc
+      181 tggactatga gcaggagctg gccacagctg cttccagctc aaccatcgag aagagctatg
+      241 agctgcctga cggacaggtg ggctgggcag actgcaatgc cagcagcttg ctgccagggc
+      301 gtcagccaca tgcagttctt gaggagtcca cagagcctgg tgctggcctc tttctgtggt
+      361 gtccaggtct gcaggggcat gggttgccag gattggctgc ctgtcagtag agctgtgagt
+      421 ggcaggccgg atgctcaccc gcctgcagga tgcactgctc cccactcagc tctgtgcaac
+      481 cctttgctca catgctgccc tgcc
+//
+

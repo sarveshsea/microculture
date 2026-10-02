@@ -1,0 +1,570 @@
+[
+  {
+    "theme": "Rabbit",
+    "symbol": "rabbit",
+    "species": "Oryctolagus cuniculus",
+    "references": [
+      {
+        "accession": "OP776926.1",
+        "species": "Oryctolagus cuniculus",
+        "sourceUrl": "https://www.ncbi.nlm.nih.gov/nuccore/OP776926.1",
+        "sequence": "ATGTTCCTAATTAATACACTCCTTTTAATCCTACCTGTACTTTTAGCCATAGCATTCCTCACCTTAGTCGAACGAAAAATCTTAGGGTACATACAACTACGTAAAGGCCCAAACATTGTAGGACCCTATGGCCTCCTCCAACCAATCGCAGACGCTATTAAGCTATTCACTAAAGAACCCCTACGACCCCTAACATCCTCTCCGCTACTCTTTATTATCGCCCCAACCCTAGCTCTAACTCTCGCACTATCAATGTGACTTCCTATCCCCATACCTTACCCACTAGTCAACCTAAATATAGGCATTCTATTCATCCTAGCAACCTCCAGCTTAGCCGTTTACTCAATCCTATGATCAGGATGAGCATCCAACTCAAAATATGCC",
+        "start": 2748,
+        "end": 3131,
+        "strand": 1,
+        "feature": "ND1",
+        "featureStart": 2748,
+        "featureEnd": 3704,
+        "translationTable": 2,
+        "checksum": "714680a14aac4052a83972cf3554e62937583c3f41f0883c931b34e201477a9a",
+        "recordChecksum": "48952aa5e4a7e8be17d4d70b11e27d05f4cd1f46dafb73820fcb2190f2ef7a30"
+      }
+    ]
+  },
+  {
+    "theme": "Frog",
+    "symbol": "frog",
+    "species": "Xenopus tropicalis",
+    "references": [
+      {
+        "accession": "NC_006839.1",
+        "species": "Xenopus tropicalis",
+        "sourceUrl": "https://www.ncbi.nlm.nih.gov/nuccore/NC_006839.1",
+        "sequence": "ATGTCCACCCTTATCACTCACTTAATCAACCCCCTTCTATACATGGTCCCGATCCTTCTGGCAGTAGCCTTCCTAACTCTTATTGAACGAAAAGTACTGGGATACATACAACATCGAAAAGGCCCAAACATTGTTGGGCCCATAGGACTTCTCCAACCAATCGCAGACGGAGTAAAACTATTTGTAAAAGAACCTATCCGCCCTTCAACCTCCTCCCAAGCCCTTTTCCTACTGGCCCCCACCATAGCCTTCGCCCTAGCCATATCTATCTGAGCCCCTATCCCCATGCCATTCTCCCTTGCCGACTTAAATCTGGGAATCCTATTCATTCTAGCCCTCTCAAGCCTCACAGTTTACACCATCCTTGGATCAGGGTGATCCTCC",
+        "start": 2792,
+        "end": 3175,
+        "strand": 1,
+        "feature": "ND1",
+        "featureStart": 2792,
+        "featureEnd": 3759,
+        "translationTable": 2,
+        "checksum": "a151426e4bf6352db9a3d775a1238b172169aa91aa51c4b187fa60d2ea60f287",
+        "recordChecksum": "aa33b9f493e35c084303767d970057aa27df88915435595ee8ee4ebaf0461ebd"
+      }
+    ]
+  },
+  {
+    "theme": "Axolotl",
+    "symbol": "salamander",
+    "species": "Ambystoma mexicanum",
+    "references": [
+      {
+        "accession": "NC_005797.1",
+        "species": "Ambystoma mexicanum",
+        "sourceUrl": "https://www.ncbi.nlm.nih.gov/nuccore/NC_005797.1",
+        "sequence": "ATGACCTATTTTGTAACCCAATTCATTAATCCTCTAATATATATTATTCCAGTACTATTAGCTGTAGCATTTTTAACTTTAGTAGAACGTAAAGTTTTAGGATATATACAACTTCGAAAAGGACCTAATATTGTAGGCCCAATTGGTCTGCTTCAACCAATTGCTGATGGCTTAAAACTATTTATTAAAGAACCAATTCGCCCCTCTACTTCCTCACAAATTCTATTTATACTAATACCAATAATAGCCCTAACTTTATCACTAGCAATTTGGATACCACTCCCAATACCCTTTACCATATCAAATCTAAATCTAACAATTCTATTTTTACTTGCTTTATCAAGCTTAACTGTATATTCTATCTTAGGCTCAGGTTGAGCCTCA",
+        "start": 2698,
+        "end": 3081,
+        "strand": 1,
+        "feature": "ND1",
+        "featureStart": 2698,
+        "featureEnd": 3666,
+        "translationTable": 2,
+        "checksum": "b325b643e62226f76eebbff393a0c69bb72946a59f1f64e7c9afba6d48593490",
+        "recordChecksum": "cc8f59d1b2601ef2f83741c695d9d18a044016adbee8bb539cc1da37014f6103"
+      }
+    ]
+  },
+  {
+    "theme": "Zebrafish",
+    "symbol": "fish",
+    "species": "Danio rerio",
+    "references": [
+      {
+        "accession": "PV357754.1",
+        "species": "Danio rerio",
+        "sourceUrl": "https://www.ncbi.nlm.nih.gov/nuccore/PV357754.1",
+        "sequence": "ATGCTAGACATCTTAACAAGCCACTTAATTAACCCCCTAGCCTACGCCGTACCAGTATTAATTGCAGTAGCCTTCCTTACCTTAGTTGAACGAAAAGTGTTAGGCTATATACAACTCCGAAAAGGACCAAATGTAGTAGGCCCCCGAGGACTGTTACAACCAGTAGCTGATGGCGTGAAACTTTTTATTAAAGAACCCATTCGACCATCTATGGCTTCTCCAATTTTATTTTTAACAGCTCCAGTTCTTGCACTAATCCTAGCAATAATGCTATGGGCACCCATACCCATGCCCTATCCAGTACTCGACCTAAATCTTGGAATTTTATTTATTATAGCCATCTCAAGCCTAGCAGTATACTCAATCCTGGGATCAGGTTGAGCA",
+        "start": 3803,
+        "end": 4186,
+        "strand": 1,
+        "feature": "ND1",
+        "featureStart": 3803,
+        "featureEnd": 4777,
+        "translationTable": 2,
+        "checksum": "7cac12454e48279d752cf26508f6b5723c8a046a46f9de3f8a953344e3bb106c",
+        "recordChecksum": "b8271460bf0160bda5e192dfb255e52469639f1009fec19564e7f6853da28767"
+      }
+    ]
+  },
+  {
+    "theme": "Mouse",
+    "symbol": "mouse",
+    "species": "Mus musculus",
+    "references": [
+      {
+        "accession": "OR840816.1",
+        "species": "Mus musculus",
+        "sourceUrl": "https://www.ncbi.nlm.nih.gov/nuccore/OR840816.1",
+        "sequence": "GTGTTCTTTATTAATACCCTAACACTCCTAGTCCCTATTCTAATCGCTATAGCCTTCCTAACACTAGTAGAACGCAAAATCTTAGGGTATATACAACTACGAAAAGGCCCTAACATTGTAGGTCCATACGGCATCCTACAACCATTTGCAGACGCCATAAAATTATTTATAAAAGAACCAATACGCCCTTTAACAACCTCCATATCCTTATTTATTATTGCACCCACCCTATCACTCACACTAGCATTAAGTCTATGAGTTCCCCTACCAATACCACACCCATTAATCAACTTAAACTTAGGGATTTTATTTATTTTAGCAACATCCAGCCTATCAGTTTACTCCATCCTATGATCAGGATGAGCCTCAAACTCCAAATACTCA",
+        "start": 2751,
+        "end": 3134,
+        "strand": 1,
+        "feature": "ND1",
+        "featureStart": 2751,
+        "featureEnd": 3705,
+        "translationTable": 2,
+        "checksum": "2de23f9e5e99bef60fc0b2bfd672116aa7bc58e71a750f593ee1fed1ada2ec6e",
+        "recordChecksum": "9f0bf3fbed205bb1d09d50a97fda9b30092331129f7abeeb9421ab3fc6873b51"
+      }
+    ]
+  },
+  {
+    "theme": "Butterfly",
+    "symbol": "butterfly",
+    "species": "Danaus plexippus",
+    "references": [
+      {
+        "accession": "NC_021452.1",
+        "species": "Danaus plexippus",
+        "sourceUrl": "https://www.ncbi.nlm.nih.gov/nuccore/NC_021452.1",
+        "sequence": "ATTTTATTTATAATTAATTCTAATAAAATATTTTTTTTTTTTTTTTTATTTTTTAGAACTTTAATCTCAATCTCCTCTAATTCATGATTAGGATGTTGAATTGGTTTAGAAATTAATTTATTAAGTTTCATCCCCCTAATTTCCTCCCCCAATAATTTATTAAATTCTGAAGCTTCTTTAAAATATTTTTTAACTCAATCAATTGCATCTATTAATTTTTTATTTTCTATTTTATTAAAATTATTATTTTTAAATTTTTTTTTTCATGAATTATTTTCAATTATAATTAATTCTTCATTATTAATAAAAATAGGATCAATTCCCTTTCATTTTTGGTTTCCTAATATTATAGAAGGATTATCTTGATTAAATTGTTTTATTTTA",
+        "start": 276,
+        "end": 659,
+        "strand": 1,
+        "feature": "ND2",
+        "featureStart": 276,
+        "featureEnd": 1286,
+        "translationTable": 5,
+        "checksum": "f777a7fd694d55a01e3ca420548cefa2f251cac5e9cff0b59c1f15b847dda4d9",
+        "recordChecksum": "b235077f8948cd2c43f131a60530dcd3361044e6a9aeb76b66962a17fce9a047"
+      }
+    ]
+  },
+  {
+    "theme": "Octopus",
+    "symbol": "octopus",
+    "species": "Octopus bimaculoides",
+    "references": [
+      {
+        "accession": "NC_029723.1",
+        "species": "Octopus bimaculoides",
+        "sourceUrl": "https://www.ncbi.nlm.nih.gov/nuccore/NC_029723.1",
+        "sequence": "ATGACTCGAAATCCCTTCCATTTAGTTGAATTTAGACCCTGACCATTAACAGGATCTATAAGAGCTTTATTTTTAACAACAGGACTCTCTTCATGATTTCACAACTACGAAAATTCTCTTATCTTTTTTGGATTATTACTTATAATTTTAACAATAATTCAATGATGACGAGATATTATTCGAGAAAGAACATTTCAAGGTTTTCATACATCTAAAGTATATAATGGATTACGATGAGGTATAATACTTTTCATTATTTCAGAAGTATGTTTTTTCTTTGCTTTTTTTTGAGCATATTTTCATAGAAGTTTAGCTCCAAATATAGATATTGGATCTTGTTGACCACCTATTTATATTTTCCCATTAAATCCATTCCAAATCCCT",
+        "start": 1,
+        "end": 384,
+        "strand": 1,
+        "feature": "COX3",
+        "featureStart": 1,
+        "featureEnd": 780,
+        "translationTable": 5,
+        "checksum": "d09e250b7905a9983a657ecac5d136b23bce7ac57bbc6ce2b75d5bb537062590",
+        "recordChecksum": "b53deb8fadcfb8a02c558dd6828fe446471acd0711640d78221cf4b7e4db2bf7"
+      }
+    ]
+  },
+  {
+    "theme": "Honeybee",
+    "symbol": "bee",
+    "species": "Apis mellifera",
+    "references": [
+      {
+        "accession": "PZ574939.2",
+        "species": "Apis mellifera",
+        "sourceUrl": "https://www.ncbi.nlm.nih.gov/nuccore/PZ574939.2",
+        "sequence": "ATCTTCTTCATAAATTTTAAATACCACTGATTTATTTATCTTTTAATTACTATTTTTGTATTAATAATAAATTCCAATAATATTTTTATTCAATGAATATTAATAGAATTTGGTACAATCATTAGAATTAGATTAATTAATATTAAATCCACAAATAAAACCCCAAGATTAATTTATTATTCAGTATCAGTAATTTCAAGAATTTTTTTATTCTTTATAATTATTGTATACTTATCATCCATTAGATTTATTAAAACAGATACTTTTAATTTTATAGTTCAAATAATATTTTTTTTAAAAATTGGAACTTTCCCCTTTCATTTTTGAATAATTTATTCTTATGAAATAATAAATTGAAAGCAAATTTTTTTAATATCAACATTA",
+        "start": 503,
+        "end": 886,
+        "strand": 1,
+        "feature": "ND2",
+        "featureStart": 503,
+        "featureEnd": 1504,
+        "translationTable": 5,
+        "checksum": "70f835bb914fcc40fb2b5560093960087707361fd8dd8e5abe13d0b21cecb14b",
+        "recordChecksum": "6dcd7c1afef2ecf2a8102c664fff8d01631c68467bad74abcd2cbb28eace402e"
+      }
+    ]
+  },
+  {
+    "theme": "Orchid",
+    "symbol": "flower",
+    "species": "Phalaenopsis equestris",
+    "references": [
+      {
+        "accession": "NC_017609.1",
+        "species": "Phalaenopsis equestris",
+        "sourceUrl": "https://www.ncbi.nlm.nih.gov/nuccore/NC_017609.1",
+        "sequence": "ATGACTGCAATTTTAGAGAGACGCGAAAGTACAAGCCTATGGGGTCGCTTCTGCAACTGGATTACCAGTACTGAAAACCGTCTTTACATCGGATGGTTTGGTGTTTTGATGATCCCTACTTTATTGACCGCAACTTCTGTATTTATCATTGCCTTCATTGCTGCCCCTCCAGTCGATATTGATGGTATTCGTGAACCTGTTTCTGGGTCTCTACTTTATGGAAACAATATTATCTCAGGTGCCATTATTCCTACTTCCGCAGCTATAGGTTTGCATTTTTACCCAATATGGGAAGCAGCATCTGTTGATGAGTGGTTATACAATGGCGGTCCTTATGAACTTATTGTTCTACACTTTTTACTTGGTGTAGCTTGTTACATGGGT",
+        "start": 802,
+        "end": 1185,
+        "strand": -1,
+        "feature": "psbA",
+        "featureStart": 124,
+        "featureEnd": 1185,
+        "translationTable": 11,
+        "checksum": "ad42ebb601238678470a0b7a517b68ffe4398c607e5857b275afe503f70b5234",
+        "recordChecksum": "fd0c35fdfd615bd4a7ec38bfefb81026e98806948ed7f41d15584078441f792f"
+      }
+    ]
+  },
+  {
+    "theme": "Fern",
+    "symbol": "fern",
+    "species": "Adiantum capillus-veneris",
+    "references": [
+      {
+        "accession": "NC_004766.1",
+        "species": "Adiantum capillus-veneris",
+        "sourceUrl": "https://www.ncbi.nlm.nih.gov/nuccore/NC_004766.1",
+        "sequence": "ATTAACAAGAATTGTTTTTTACACCCACTTCTTTTTTTGTCTGAGGAGAATTTTTATTTGACAGATGGCAAACGCCGATCACATGGTGCAGACGCCAACTTGGTTTTTGGGGCCTGGAGTACGGTGGCAGTCAAACGTTTAATTGGTAGCGTACGTGACCCTAATCTAAATTTTTTGAAAATTTACGATTCAGTGTCTGTTCGAAACTTAACCGACGGATTAGACGTGGATTTGTATCTTCACCCGCTTTTGAAAATGACATATCTCATATTAGGCATAGCCCTTTTTCCTAAAATCAGAGCTGAAACAAGTAGTAAGTCAAAGATGTTGCAGTCTATTCATTCGATGTTTTTATTTCTGGAAGATAGATTTTCAAAATCTAAT",
+        "start": 2435,
+        "end": 2818,
+        "strand": -1,
+        "feature": "matK",
+        "featureStart": 1379,
+        "featureEnd": 2818,
+        "translationTable": 11,
+        "checksum": "a07bffd41328e45c5188eb39f8ff6fc39e1dfbdc836c5c8768f6a41c73690986",
+        "recordChecksum": "54a718255039b395b98cc86897b07b4b8ae7b9cf7566d3bcaa0af962ad665ed2"
+      }
+    ]
+  },
+  {
+    "theme": "Coral",
+    "symbol": "coral",
+    "species": "Acropora digitifera",
+    "references": [
+      {
+        "accession": "NC_022830.1",
+        "species": "Acropora digitifera",
+        "sourceUrl": "https://www.ncbi.nlm.nih.gov/nuccore/NC_022830.1",
+        "sequence": "GTGTTCGTGGAAATAATTCATTTACTTTTAAAAATATTAATGGTCGTAGTTCCATTGCTTATCACAGTAGCTTATTTAACTTTAGCCGAACGAAAGGTTTTAGGATATATGCAGGCCAGAAAAGGGCCAAATGTAGTGGGGGTTAGTGGGTTGGCCCAGCCTTTTGCAGATGGTCTAAAACTATTTACTAAAGAGATGGTGGTTCCGCATCAAACCAATTTGTTTATTTATATAGTGGCGCCGGTGCTTTCCTTTACCTTGGCATTAATTGTTTGAGGGGTGGTGCCTTATGAGAGAGGGGCTTTAATAAGTGATTTAAAAATAGGGGTTTTGTATATTTTGGCTGTTTCTTCGATAAGTGTCTATGCGATATTAATGTCTGGG",
+        "start": 3477,
+        "end": 3860,
+        "strand": 1,
+        "feature": "ND1",
+        "featureStart": 3477,
+        "featureEnd": 4460,
+        "translationTable": 4,
+        "checksum": "1bf337956f74cb30660dd7f516aa45577d5a20ea954f4c74f5249ee3382ffdbe",
+        "recordChecksum": "1e86848a830a13ec12808a8f183965d318f20bb05b60b8ddc2e03065edd680e8"
+      }
+    ]
+  },
+  {
+    "theme": "Yeast",
+    "symbol": "yeast",
+    "species": "Saccharomyces cerevisiae",
+    "references": [
+      {
+        "accession": "KP263414.1",
+        "species": "Saccharomyces cerevisiae",
+        "sourceUrl": "https://www.ncbi.nlm.nih.gov/nuccore/KP263414.1",
+        "sequence": "ATGGTACAAAGATGATTATATTCAACAAATGCAAAAGATATTGCAGTATTATATTTTATGTTAGCTATTTTTAGTGGTATGGCAGGAACAGCAATGTCTTTAATCATTAGATTAGAATTAGCTGCACCTGGTTCACAATATTTACATGGTAATTCACAATTATTTAATGGTGCGCCTCTCAGTGCGTATATTTCGTTGATGCGTCTAGCATTAGTATTATGAATCATCAATAGATACTTAAAACATATGACTAACTCAGTAGGGGCTAACTTTACGGGGACAATAGCATGTCATAAAACACCTATGATTAGTGTAGGTGGAGTTAAGTGTTACATGGTTAGGTTAACGAACTTCTTACAAGTCTTTATCAGGATTACAATTTCC",
+        "start": 13818,
+        "end": 14201,
+        "strand": 1,
+        "feature": "AI1",
+        "featureStart": 13818,
+        "featureEnd": 16322,
+        "translationTable": 3,
+        "checksum": "0a50c8800d622bcc2c31a905cd15f77b3da4831854e0b8aee0b1cde1bf6a4b59",
+        "recordChecksum": "1537687283e5cea05a49925483d9fa8e25a84d67b4eb96732a9d984ea03d2ee8"
+      }
+    ]
+  },
+  {
+    "theme": "Moss",
+    "symbol": "moss",
+    "species": "Physcomitrium patens",
+    "references": [
+      {
+        "accession": "NC_037465.1",
+        "species": "Physcomitrium patens",
+        "sourceUrl": "https://www.ncbi.nlm.nih.gov/nuccore/NC_037465.1",
+        "sequence": "ATGTCACGCCGTAGTATTATAGAAAAAAAAACCATAAAATCGGATCCAATTTATCGTAATCGATTAGTAAATATGATGGTTAATCGAATTTTAAAAAATGGAAAAAAATCATTAGCTTATCGCATTTTTTATAAAGCAATGAAAAATATTAAACAAAAAACAAAAAAAAATCCATTATCTATTTTACGTCAAGCTATACATAGAGTAACACCTAATGTGACAATAAAAGCACGACGTGTAGGTGGATCCACCTATCAAGTACCAGTTGAAATAAAATCTGCTCAAGGTAAAGCTCTTGCTATTTGTTGGCTTTTAAGAGCTTCTAAAAAACGTTTAGGTCGAAATATGGCTTTTAAATTGAGTTATGAATTAATTGACGCTGCT",
+        "start": 1033,
+        "end": 1416,
+        "strand": 1,
+        "feature": "rps7",
+        "featureStart": 1033,
+        "featureEnd": 1500,
+        "translationTable": 11,
+        "checksum": "5797ee9f0560f347d88e63f465bb0719e95ec6c8a185d6dfe388c7945b2fc377",
+        "recordChecksum": "ce49e28561543eb3b0f757fca1c532a6839ea35743087d45ee3160e0f238ce95"
+      }
+    ]
+  },
+  {
+    "theme": "Firefly",
+    "symbol": "beetle",
+    "species": "Photinus pyralis",
+    "references": [
+      {
+        "accession": "KY778696.1",
+        "species": "Photinus pyralis",
+        "sourceUrl": "https://www.ncbi.nlm.nih.gov/nuccore/KY778696.1",
+        "sequence": "ATTACAAAATTTTATAAATTAATATTTTTATCTACTTTATTTATTTCAACATTAATTTCAATTTCCTCCTATTCATGAATAGGAATATGAATTGGATTAGAAATTAATGTTTTATCTATTATTCCTATTTTAATTTATTTTAAAAATAAAACATCTTCAGAAGCAGCAATTAAATATTTTTTTACACAAGCTGTAGCATCCACAGCCATTATATTCTCAATTATTCTAATAATTAGGCAATATAATTTCACAACAAAATTTCTACTAGATTGATCTCTTTTAATTATAAATTCAAGACTTTTAATAAAAATAGGAATAGCCCCGTTCCATTTTTGATTCCCCGAAGTTCTTGAAGGCTTAAGATGAATAAATTCTATATTAATA",
+        "start": 1732,
+        "end": 2115,
+        "strand": 1,
+        "feature": "nad2",
+        "featureStart": 1732,
+        "featureEnd": 2754,
+        "translationTable": 5,
+        "checksum": "3ed0b9deffe29fc936b947952329a8a90562801a230d63fbe5bd87b43fb0f69a",
+        "recordChecksum": "657e4b77794d92e03412a5459319f02ad5cd90ec18bd8fb8811e060eed97d163"
+      }
+    ]
+  },
+  {
+    "theme": "Sea urchin",
+    "symbol": "urchin",
+    "species": "Strongylocentrotus purpuratus",
+    "references": [
+      {
+        "accession": "NC_001453.1",
+        "species": "Strongylocentrotus purpuratus",
+        "sourceUrl": "https://www.ncbi.nlm.nih.gov/nuccore/NC_001453.1",
+        "sequence": "ATGGTGTATGTATTTAGAATATTAGAACTCATCTCATTTTTAATCCCGATTCTTTTATCTGTAGCTTTTCTCACACTAGTAGAGCGAAAGGTGCTGGGCTATATGCAATTTCGAAAAGGTCCGAATGTAGTAGGGCCTTTTGGGCTTTTACAACCCTTTGCAGATGGAATGAAGGTCTTTATAAAGGAAGAGTTGAAGCCAGTGAACAGTTCCCCTTATTTGTTCTTTTTCTCCCCTCTACTATTCTTAGCTTTGGCTTTACTTCTATGGAAATTTATGCCCGTGCACACCCCTACCTTGGACCTACAACTCTCCCTACTTTTAGTACTGGGCCTATCTAGGCTTTCTGTTTATGCTATCCTAGGTTCTGGTTGAGCCTCAAAA",
+        "start": 2162,
+        "end": 2545,
+        "strand": 1,
+        "feature": "ND1",
+        "featureStart": 2162,
+        "featureEnd": 3130,
+        "translationTable": 9,
+        "checksum": "bc3e8e103c32cca8f8452a40b440a7069587fb8c9d42773845071e5d6782f732",
+        "recordChecksum": "1ade32e7d17d1398a3ad2192fdcd50fbb24c6f3831479fa1fcc13f56d2399bd1"
+      }
+    ]
+  },
+  {
+    "theme": "Silkworm",
+    "symbol": "moth",
+    "species": "Bombyx mori",
+    "references": [
+      {
+        "accession": "MW551562.1",
+        "species": "Bombyx mori",
+        "sourceUrl": "https://www.ncbi.nlm.nih.gov/nuccore/MW551562.1",
+        "sequence": "ATATTTTTTTTTATTTTAACAAATAATAATTCAAATAAAATATTTTTTTTATTTATTCTATTTTTTAGAACATTAATTTCTATTTCTTCAAACTCATGATTTGGATGTTGAATTGGATTAGAAATTAACTTATTAAGATTTATCCCCCTAATTTCAAACTCAAAAAATTTATTATCTGTAGAAACCTCATTAAAATATTTTCTAACACAATCTTTAGCATCAATTAATTTTTTATTTATAATTTTAATTAAATTTAGCTTATTAAAAAATTTTAACATAAATAATATTATTTCAATTATAATAAACTCTTCATTATTAATAAAAATAGGATCAGCACCATTTCATTTTTGATTTCCAAATATTGTAGAAGGTCTTTCATGAATA",
+        "start": 246,
+        "end": 629,
+        "strand": 1,
+        "feature": "ND2",
+        "featureStart": 246,
+        "featureEnd": 1268,
+        "translationTable": 5,
+        "checksum": "5877a7ad11add679bcf46a4412971193bb60789e76ed943055665f9309f771c8",
+        "recordChecksum": "a2edc735cf6f21832e79abbe1bc7fdcf9bc0b0b1932bce863c9f94f904836990"
+      }
+    ]
+  },
+  {
+    "theme": "Diatom",
+    "symbol": "diatom",
+    "species": "Phaeodactylum tricornutum",
+    "references": [
+      {
+        "accession": "NC_016739.1",
+        "species": "Phaeodactylum tricornutum",
+        "sourceUrl": "https://www.ncbi.nlm.nih.gov/nuccore/NC_016739.1",
+        "sequence": "ATGGTTGGTGCAAATGTATTATTTTACTTCTTTTCAATTTTTTTAGTAATTAGTGCCGCTATCGTGGTTTTTTCGCAACACCCTATATTTTCTCTTTTGTTTTTAGTTTTAAGTTTTTTAACGTCTTCGTTTATACTGTTTTTATTGGAATGCGAGTTTTTAGCGTTACTTTTTGTGCTAGTATATGTGGGAGCGATTGCTGTTTTATTTTTATTTGCTATCATGATGTTGGAGTTCAAACTTCATAATTTAGCAAAAACTTTAACAAAATATATTCCAGCAGGTATCTTTTTCGGCATTTTTTCATTCTTCCCTCTCTTTCAACAAGTGTCTAACCAATTTAGAACTAATTTTCATTCAGATAGCTTCTATTTCAATAAATAC",
+        "start": 6564,
+        "end": 6947,
+        "strand": 1,
+        "feature": "nad6",
+        "featureStart": 6564,
+        "featureEnd": 7166,
+        "translationTable": 1,
+        "checksum": "55a17bbae3a359ac0a836488159e5adf0f1232431a0252e9dedd43eb889be139",
+        "recordChecksum": "82a05ce443885699de2c17ee50da9e75765752d33579c3d76869e45d92523c58"
+      }
+    ]
+  },
+  {
+    "theme": "Jellyfish",
+    "symbol": "jellyfish",
+    "species": "Aurelia aurita",
+    "references": [
+      {
+        "accession": "NC_008446.1",
+        "species": "Aurelia aurita",
+        "sourceUrl": "https://www.ncbi.nlm.nih.gov/nuccore/NC_008446.1",
+        "sequence": "ATGAGAATTAGAAAATATAATCCACTAGCAACAATCATAAATGATATCTTAGTAGACCTACCCTCTCCCTCCAATATTAGTTACCTATGAAATTTTGGGTCTTTATTGGGACTATGTTTAGCAATACAAATAATAACTGGAATATTCCTTTCTATGCATTATTGTTCCGACACCACACTTGCCTTTAATTCTGTAGCTCATATTATGAGAGATGTAAATTATGGGTTCGTATTAAAATATATACATGCTAATGGTGCTTCCCTATTCTTCCTATGTGTTTACATACATATTGCTAGAGGCCTATATTACGGAAGCTATATGAAGAGAGACTTATGGTTATCTGGGGTAACAATATATATAATAATGATGGCTACGGCTTTCATA",
+        "start": 1158,
+        "end": 1541,
+        "strand": -1,
+        "feature": "CYTB",
+        "featureStart": 402,
+        "featureEnd": 1541,
+        "translationTable": 4,
+        "checksum": "bd7e9c016a55dd7910d6433934c43c49532fa3b73d2dd381b86ca04d1260e68f",
+        "recordChecksum": "25c73b168aa925624eaf8bb0934d87d9da7d8dafb176bc2b33a87603d3c205f9"
+      }
+    ]
+  },
+  {
+    "theme": "Beetle",
+    "symbol": "beetle",
+    "species": "Tribolium castaneum",
+    "references": [
+      {
+        "accession": "PV563855.1",
+        "species": "Tribolium castaneum",
+        "sourceUrl": "https://www.ncbi.nlm.nih.gov/nuccore/PV563855.1",
+        "sequence": "ATATATAAAATCCTTTTCCTAAATTCTATAGTTTTAGGAACCCTTATCTCGATCTCTTCATATTCATGGCTAAGAATATGAATAGGACTAGAAATTAATTTGTTATCGATTATCCCCCTATTCTCGAATAACAAAAATATCTTCTCGTCTGAATCAGCTTTAAAGTATTTTATTACTCAGGCCATGGCATCTCTCATCCTCCTAATAGCAATTTTATTATTACTATTAACAAACGAATTTATTCATCCCCTAATAAATTCAAGACTAAAAGTAATAATAGACTCAGCTTTATTAACAAAATTAGGAGCCGCTCCATTCCATTTTTGATTCCCCGAAGTAATTGAAGGACTAAACTGAACTAACTCATTCATCCTTCTAACATGG",
+        "start": 203,
+        "end": 586,
+        "strand": 1,
+        "feature": "nad2",
+        "featureStart": 203,
+        "featureEnd": 1207,
+        "translationTable": 5,
+        "checksum": "4219355495920f816efde6e802593a2dee287ba3369b6e3f861487a8b1679367",
+        "recordChecksum": "6b5b7ccd242021d0dc096560300111bbaad1259c18b05b68ca965801b069d8d0"
+      }
+    ]
+  },
+  {
+    "theme": "Salamander",
+    "symbol": "salamander",
+    "species": "Ambystoma tigrinum",
+    "references": [
+      {
+        "accession": "PV054095.1",
+        "species": "Ambystoma tigrinum",
+        "sourceUrl": "https://www.ncbi.nlm.nih.gov/nuccore/PV054095.1",
+        "sequence": "ATGACTTATTTTGTAACCCAATTTATTAACCCTCTAATATATATCATCCCAGTATTATTAGCTGTAGCATTTTTAACTCTTGTAGAACGTAAAGTTTTAGGATATATACAACTTCGAAAAGGGCCTAATATTGTCGGCCCAATTGGTCTACTTCAACCAATTGCTGATGGCTTAAAACTATTTATTAAAGAGCCTATTCGCCCCTCTACTTCTTCACAAACTCTATTTATACTAATACCAATAATAGCCCTAACTTTATCACTAGCAATCTGAATACCACTTCCAATACCCTTTACCATATCAAATCTAAATTTGACAATTTTATTTTTACTTGCTTTATCAAGCCTAACTGTATATTCTATTTTAGGCTCAGGTTGAGCCTCA",
+        "start": 2698,
+        "end": 3081,
+        "strand": 1,
+        "feature": "ND1",
+        "featureStart": 2698,
+        "featureEnd": 3666,
+        "translationTable": 2,
+        "checksum": "585c0d5a7fc9bb75ef6e3684d013fe20e5427603fbee965549cafb2427f149be",
+        "recordChecksum": "a2b8df784fda770201a2ce82d52614e8ff8984a0ede7da2c1b12742112a9f08c"
+      }
+    ]
+  },
+  {
+    "theme": "Dragonfly",
+    "symbol": "dragonfly",
+    "species": "Anax imperator",
+    "references": [
+      {
+        "accession": "NC_031821.1",
+        "species": "Anax imperator",
+        "sourceUrl": "https://www.ncbi.nlm.nih.gov/nuccore/NC_031821.1",
+        "sequence": "ATATTTAATATATCTTCAACTATTTTTTTCATATCTTTAATTACTGGAACATTAATTTCAATTTCATCAACATCTTGAATTGGGATGTGAATAGGACTAGAAATAAATTTACTTTCATTTATTCCATTAATAAATAAGAATAAAACACCTTATGAAAATGAATCTGCTATAAAATATTTTCTTGTTCAAGCAATTGCTTCAATTATATTTTTATTAGCTATTTTACTTGCTAGAATAATAGATTTTGATTATTATACATATATTAATTATATTTTATCATCAGCTTTATTAATAAAAATAGGAGCTGCGCCTTTTCATTTTTGATTCCCAGGAGTAATGGAAGGACTAGACTGAATAAATTGTTTAATTTTAATAACTTGACAA",
+        "start": 424,
+        "end": 807,
+        "strand": 1,
+        "feature": "ND2",
+        "featureStart": 424,
+        "featureEnd": 1419,
+        "translationTable": 5,
+        "checksum": "33da072761dc6d8e1336d7aa04c7d55380158bf48b23a7f6838900e2a3c1ccef",
+        "recordChecksum": "cf8a73d9ec125fb1c544896b763737f963cd055901251cfcdc189ff9eecc9f8d"
+      }
+    ]
+  },
+  {
+    "theme": "Anemone",
+    "symbol": "anemone",
+    "species": "Anemonia viridis",
+    "references": [
+      {
+        "accession": "NC_037177.1",
+        "species": "Anemonia viridis",
+        "sourceUrl": "https://www.ncbi.nlm.nih.gov/nuccore/NC_037177.1",
+        "sequence": "ATGAGGTGGTTAGGGCTTATGCCTTTCTTCGCTGTTGGTACCTCCGAGACTTTATGTGAACCCACTTCGAATTTCATGAGAAAGCTCGTTTTCTTGATGATCGTTGAAACAATTCATTTAATTTTAAAAATTTTAATAATAGTTATTCCGTTACTTGTAGCAGTGGCTTATTTAACTTTGGCCGAACGGAAGGTTTTAGGATATATGCAAGCTAGGAAAGGGCCCAATGTAGTAGGTGTTTATGGGCTGTTACAACCTCTTGCTGATGGTATAAAACTATTTACTAAAGAATTGGTGATTCCTCACTACGCTAATTTGTTTATATATGTGGCGGCGCCAGTCTTTTCATTTACTTTAGCCCTAATTGCTTGGGGAGTTATTCCT",
+        "start": 846,
+        "end": 1229,
+        "strand": 1,
+        "feature": "ND1",
+        "featureStart": 846,
+        "featureEnd": 1925,
+        "translationTable": 4,
+        "checksum": "e8cc3f57931130bdbae5a9fbfd27e9c08e56c8588bf8619b0af3982fa4a31ad1",
+        "recordChecksum": "b6f07611e855e43353bf05e838489f167625437fbe9567355b55f5a49f3a575f"
+      }
+    ]
+  },
+  {
+    "theme": "Sunflower",
+    "symbol": "flower",
+    "species": "Helianthus annuus",
+    "references": [
+      {
+        "accession": "ON087702.1",
+        "species": "Helianthus annuus",
+        "sourceUrl": "https://www.ncbi.nlm.nih.gov/nuccore/ON087702.1",
+        "sequence": "ATGACTGCAATTTTAGAGAGACGCGAAAGCGAAAGCCTATGGGGTCGCTTCTGTAACTGGATAACTAGCACCGAAAACCGTCTTTACATTGGATGGTTTGGCGTTTTGATGATCCCTACCTTATTGACCGCAACTTCTGTATTTATTATCGCCTTCATTGCTGCTCCTCCAGTAGATATTGATGGTATTCGTGAACCTGTTTCTGGATCTCTACTTTACGGAAACAATATTATTTCCGGTGCCATTATTCCTACTTCTGCAGCTATCGGTTTGCACTTTTACCCAATATGGGAAGCAGCATCCGTTGATGAATGGTTATACAATGGTGGTCCTTATGAACTAATTGTTCTACACTTCTTACTTGGTGTAGCTTGTTACATGGGT",
+        "start": 1142,
+        "end": 1525,
+        "strand": -1,
+        "feature": "psbA",
+        "featureStart": 464,
+        "featureEnd": 1525,
+        "translationTable": 11,
+        "checksum": "21f9371b8298624c617248c8249c0284bc2de113f03edabf2c9ad7069d7bd0d3",
+        "recordChecksum": "3bf36dd2f0b3c87e414c6276568f8ce2602cd696ce1bff80e13818dbed3043d3"
+      }
+    ]
+  },
+  {
+    "theme": "Lichen",
+    "symbol": "lichen",
+    "species": [
+      "Cladonia grayi",
+      "Asterochloris glomerata"
+    ],
+    "references": [
+      {
+        "accession": "NC_070372.1",
+        "species": "Cladonia grayi",
+        "sourceUrl": "https://www.ncbi.nlm.nih.gov/nuccore/NC_070372.1",
+        "sequence": "ATTCTTAAATATATAATTAAATGAACCGACATCTCCCTTAAATCTACAGCATTGAAAACATCAATATTAGCCTTATTTGTGTCTTTAGTGTTATTTGCATTTTTTGATTTCACTAATAATCAATTTCAATTTGTACAAGAATATCATGAAGTAAATACCTTTAGTTTTTATTTAGGTGTAGATGGTTTATCTATATATTTTGTTTTGTTAACAACAATAATAATGCCTATTGCATTGTTATCTAATTGAACATCTATATCCCACAACTTAAGATCATTTCTTATAACAATATTGTTGTTGGAAACACTACTATTGTGCGTGTTTTTAGTACTAGACATTTTATTGTTTTACATTTTTTTTGAAAGTATATTACCTCCTTTGTTC",
+        "start": 8436,
+        "end": 8819,
+        "strand": 1,
+        "feature": "nad4",
+        "featureStart": 8436,
+        "featureEnd": 9848,
+        "translationTable": 4,
+        "checksum": "258889cdfbaf7429f8870b1d78693b0a4a4d83b1dc15576c7028a86d1b22aa88",
+        "recordChecksum": "7ce33c482d345ed336ef60206f7790443b6d969a64c496c216389902f491faa4"
+      },
+      {
+        "accession": "PX906834.1",
+        "species": "Asterochloris glomerata",
+        "sourceUrl": "https://www.ncbi.nlm.nih.gov/nuccore/PX906834.1",
+        "sequence": "CTGCCACTTTCTGCAAGGATCTGTTGGTGCATCTCTGTGTGCAGCTGGTTGCTGTGCTGGGACTGCTGTTGCATAGTACCCTCTGACAGGCTGAAGGCTGATTTTCTGAAATCACCATCAATTTGCACGCAGAGCGTGAAATTGTGCGGGATATCAAGGAGAAGCTGGCATATGTGGCTCTGGACTATGAGCAGGAGCTGGCCACAGCTGCTTCCAGCTCAACCATCGAGAAGAGCTATGAGCTGCCTGACGGACAGGTGGGCTGGGCAGACTGCAATGCCAGCAGCTTGCTGCCAGGGCGTCAGCCACATGCAGTTCTTGAGGAGTCCACAGAGCCTGGTGCTGGCCTCTTTCTGTGGTGTCCAGGTCTGCAGGGGCATGGGT",
+        "start": 1,
+        "end": 384,
+        "strand": 1,
+        "feature": "genomic actin fragment; includes noncoding sequence",
+        "featureStart": 1,
+        "featureEnd": 504,
+        "translationTable": null,
+        "checksum": "81d5d7eae33e7a1b6da94a7c32be696bf9b801c4a4dbdde554adead9ded409de",
+        "recordChecksum": "d1fc7f5702cf9edf9b23c648617e568de93125c4d76faaece5e1839f0475df9b"
+      }
+    ]
+  },
+  {
+    "theme": "Nautilus",
+    "symbol": "nautilus",
+    "species": "Nautilus macromphalus",
+    "references": [
+      {
+        "accession": "NC_007980.1",
+        "species": "Nautilus macromphalus",
+        "sourceUrl": "https://www.ncbi.nlm.nih.gov/nuccore/NC_007980.1",
+        "sequence": "ATGCGATGAGTATTTTCTACAAACCACAAAGATATTGGGACTCTTTACTTTTTATTCGGGATTTGGTCCGGTTTAGTCGGAACATCCCTTAGTTTATTAATTCGAACAGAATTAAGACAACCCGGAACTCTCTTAGGAGACGACCAACTATACAATGTAATCATTACAGCTCATGCTTTTGTTATGATTTTCTTCCTAGTGATACCAATCATGATTGGGGGCTTTGGTAATTGATTGCTGCCCCTTATATTAGGAGCACCGGATATAGCCTTCCCTCGACTAAACAACATAAGATTCTGACTTCTCCCTCCATCTTTAATGTTACTTCTATCTTCCGCCGCAGTAGAGAGGGGAGCAGGAACTGGATGAACCGTATATCCACCG",
+        "start": 1,
+        "end": 384,
+        "strand": 1,
+        "feature": "COX1",
+        "featureStart": 1,
+        "featureEnd": 1533,
+        "translationTable": 5,
+        "checksum": "b4bae5f075a79cede1f87f3fa70506ae2e9580ab2c8e68fcfb3f4d1535e7bdb3",
+        "recordChecksum": "3bf9ff30be1ee991531bc7e9340a8f59414b3275be672a64124438a3bfc07c12"
+      }
+    ]
+  }
+]

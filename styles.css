@@ -1,0 +1,81 @@
+:root {
+  --ground: oklch(.982 0 0);
+  --surface: oklch(.997 0 0);
+  --ink: oklch(.38 .012 230);
+  --muted: oklch(.58 .012 230);
+  --hover: oklch(.95 .006 230);
+  --focus: oklch(.72 .13 205);
+  --line: oklch(.72 0 0 / .3);
+  --panel-ink: oklch(.36 .025 250);
+  --hairline: .35px;
+  --touch-target: 44px;
+  --motion: cubic-bezier(.2,.7,.2,1);
+}
+:root[data-theme="dark"] {
+  --ground: oklch(.16 .012 250);
+  --surface: oklch(.205 .014 250);
+  --ink: oklch(.94 .018 210);
+  --muted: oklch(.76 .025 220);
+  --hover: oklch(.26 .02 230);
+  --focus: oklch(.8 .13 205);
+  --line: oklch(.7 .012 230 / .3);
+  --panel-ink: oklch(.88 .025 220);
+}
+* { box-sizing: border-box; }
+html, body { margin:0; width:100%; height:100dvh; overflow:hidden; background:var(--ground); }
+canvas { display:block; width:100%; height:100%; touch-action:manipulation; }
+canvas:focus-visible { outline:var(--hairline) solid var(--focus); outline-offset:-4px; }
+#field { position:fixed; inset:0; touch-action:none; }
+#dish { touch-action:none; }
+.sr-only { position:absolute; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip:rect(0,0,0,0); white-space:nowrap; }
+button {
+  width:var(--touch-target); height:var(--touch-target); flex-shrink:0;
+  border:0; border-radius:50%; background:transparent; color:var(--muted);
+  display:grid; place-items:center; cursor:pointer; -webkit-tap-highlight-color:transparent;
+  transition:background-color 140ms ease,color 140ms ease,transform 160ms var(--motion),opacity 140ms ease;
+}
+button:hover { background:var(--hover); color:var(--ink); }
+button:active { transform:scale(.97); }
+button:focus-visible { outline:var(--hairline) solid var(--focus); outline-offset:2px; color:var(--ink); }
+button:disabled { opacity:.35; cursor:wait; }
+button[aria-pressed="true"] { color:var(--ink); background:var(--hover); outline:var(--hairline) solid var(--line); }
+button svg { width:18px; height:18px; fill:none; stroke:currentColor; stroke-width:1; stroke-linecap:round; stroke-linejoin:round; transition:transform 160ms var(--motion); }
+#next:hover svg, #peek-next:hover svg { transform:translateX(1.5px); }
+#previous:hover svg { transform:translateX(-1.5px); }
+.controls {
+  position:fixed; z-index:12; bottom:max(22px,env(safe-area-inset-bottom)); left:50%; transform:translateX(-50%);
+  display:flex; gap:4px; padding:4px; max-width:calc(100vw - 12px); border-radius:28px;
+  background:var(--surface); border:var(--hairline) solid var(--line); transition:opacity 160ms ease;
+}
+body[data-stage="1"] #grid-controls, body[data-stage="2"] #grid-controls, body[data-stage="3"] #grid-controls { opacity:0; pointer-events:none; }
+.navigation.controls, #grid-controls.navigation { flex-direction:column; gap:0; width:max-content; }
+.navigation-primary { display:flex; align-items:center; gap:0; }
+.navigation button, #grid-controls.navigation button { width:var(--touch-target); height:var(--touch-target); min-width:var(--touch-target); }
+.navigation [hidden] { display:none!important; }
+.navigation[data-collapsed="true"] { padding:0; border-radius:24px; }
+.navigation .navigation-pull { width:56px; touch-action:none; }
+.navigation-pull svg { width:22px; }
+dialog { position:fixed; inset:0; width:100%; max-width:none; height:100%; max-height:none; margin:0; padding:0; border:0; background:transparent; overflow:hidden; }
+dialog::backdrop { background:transparent; }
+dialog .close { position:absolute; z-index:10; top:max(24px,env(safe-area-inset-top)); right:28px; background:var(--surface); }
+.peek { position:absolute; width:160px; height:160px; top:calc(50% - 80px); border-radius:0; background:transparent; opacity:.82; transition:opacity 160ms ease; }
+.peek:hover { opacity:1; background:transparent; }
+.peek-previous { left:18px; }
+.peek-next { right:18px; }
+.peek canvas { pointer-events:none; }
+@media(max-width:600px) {
+  .controls { bottom:max(12px,env(safe-area-inset-bottom)); border-radius:26px; }
+  dialog .close { top:max(14px,env(safe-area-inset-top)); right:14px; }
+  .peek { width:96px; height:96px; top:auto; bottom:130px; }
+  .peek-previous { left:12px; }
+  .peek-next { right:12px; }
+}
+@media(max-width:320px) {
+  .navigation.controls, #grid-controls.navigation { padding:2px; max-width:100vw; }
+}
+@media(max-height:320px) {
+  .peek { display:none; }
+}
+@media(prefers-reduced-motion:reduce) {
+  button, button svg, .controls, .peek { transition:none; }
+}
