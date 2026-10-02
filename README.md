@@ -1,8 +1,8 @@
-# Microculture
+# ParticleSeq
 
 A living canvas of procedural petri dishes. Explore an infinite grid, watch tissue grow and retire, and combine two specimens to create a third. The interface stays wordless; the organisms carry the visual story.
 
-**[Open the live canvas](https://microculture.vercel.app)**
+**[Open the live canvas](https://particleseq-seas.vercel.app)**
 
 ## Interaction
 
@@ -11,6 +11,8 @@ A living canvas of procedural petri dishes. Explore an infinite grid, watch tiss
 - Drag a specimen onto another. On touch, hold for 350 ms before dragging. Nearby targets attract the preview magnetically.
 - Alternatively, select the merge icon, choose a partner, and confirm with Enter. Escape cancels.
 - Pause biological time, switch themes, export a 3840 × 2160 PNG, or hide the bottom bar.
+
+Merges reserve a renderer slot even when the viewport fills the 72-specimen cache. Only the nearest admitted tiles request generation; saved offspring remain independent of cache residency.
 
 Parents remain intact. A successful merge inserts a row beneath the target and reveals the offspring there; it does not open the child automatically. Offspring and row history persist in that browser's local storage.
 

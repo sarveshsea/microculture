@@ -9,3 +9,17 @@ test('explicit regeneration changes seed after cold restoration without losing i
 
 test('regenerated seed is restored once in a new runtime and remains renewable',()=>{const fresh=vm.createContext({performance:{now:()=>0},localStorage:{getItem:k=>saved.get(k)||null,setItem:(k,v)=>saved.set(k,v)},MicroRender:{evict:()=>{}}});for(const name of ['colors','biology','genetics','field','fungal','view','layout','offspring','atlas'])vm.runInContext(fs.readFileSync(`${__dirname}/../${name}.js`,'utf8'),fresh);let w=fresh.MicroAtlas.ensure(fresh.MicroFungus.create(999),1440,1000,{zoom:1,panX:0,panY:0},12);assert.equal(w.seed,188);fresh.MicroAtlas.reset();w=fresh.MicroAtlas.ensure(fresh.MicroFungus.create(325),1440,1000,{zoom:1,panX:0,panY:0},12);assert.equal(w.seed,325);assert.equal(JSON.parse(saved.get('microculture.archive.v2')).layout.seed,325);});
 test('canceling after generation completes clears the uncommitted child reveal for a fresh retry',()=>{c.MicroAtlas.reset();const world=c.MicroAtlas.ensure(c.MicroFungus.create(188),1440,1000,{zoom:1,panX:0,panY:0},12),first=c.MicroAtlas.prepareMerge(world,0,1),child={...first.reservation.child,generatedAt:1000};assert.equal(c.MicroAtlas.reveal(child,2000).complete,true);c.MicroAtlas.cancelMerge(first.reservation);const retry=c.MicroAtlas.prepareMerge(world,0,1);assert.equal(retry.reservation.child.uid,child.uid);const fresh={...retry.reservation.child,generatedAt:3000};assert.equal(c.MicroAtlas.reveal(fresh,3000).born,3000);assert.equal(c.MicroAtlas.reveal(fresh,3000).complete,false);});
+
+test('repeated merging reserves a bounded slot even when every renderer slot is visible',()=>{
+ c.MicroAtlas.reset();let world=c.MicroAtlas.ensure(c.MicroFungus.create(188),1440,1000,{zoom:1,panX:0,panY:0},12);
+ for(let col=20;world.colonies.length<c.MicroAtlas.limit;col++)world=c.MicroAtlas.at(world,0,col,12).world;
+ const parents=world.colonies.slice(0,2),count=c.MicroOffspring.records().length;
+ for(let n=0;n<3;n++){
+  c.MicroAtlas.focus(world.colonies.map(colony=>colony.id));
+  const result=c.MicroAtlas.prepareMerge(world,0,1);assert.ok(result.reservation,'a full visible cache must not block offspring');
+  world=c.MicroAtlas.commitMerge(result.reservation).world;
+  assert.equal(world.colonies.length,c.MicroAtlas.limit);
+  for(let id=0;id<2;id++){assert.equal(world.colonies[id].uid,parents[id].uid);assert.equal(world.colonies[id].segments,parents[id].segments);}
+ }
+ assert.equal(c.MicroOffspring.records().length,count+3);
+});

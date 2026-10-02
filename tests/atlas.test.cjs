@@ -28,3 +28,13 @@ test('renderer slot reuse never carries the evicted identity clock into a new sp
  world={...world,time:10,colonies:[{id:0,uid:'new-slot',segments:[{born:10,lastUpdated:10}]}]};world=atlas.advance(world,.1,0);
  assert.equal(world.colonies[0].segments[0].born,10);assert.ok(world.time-world.colonies[0].segments[0].born<.101);
 });
+
+test('oversized viewports settle instead of retrying tiles beyond cache admission',()=>{
+ A.reset();let world=F.create(81);
+ const camera={zoom:1.08,panX:0,panY:0};
+ for(let n=0;n<60;n++)world=A.ensure(world,1920,1080,camera,12);
+ assert.equal(world.colonies.length,A.limit);assert.equal(A.pending(),false);
+ const identities=world.colonies.map(colony=>colony.uid);
+ for(let n=0;n<10;n++)world=A.ensure(world,1920,1080,camera,12);
+ assert.deepEqual(world.colonies.map(colony=>colony.uid),identities);
+});
