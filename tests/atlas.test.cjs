@@ -38,3 +38,13 @@ test('oversized viewports settle instead of retrying tiles beyond cache admissio
  for(let n=0;n<10;n++)world=A.ensure(world,1920,1080,camera,12);
  assert.deepEqual(world.colonies.map(colony=>colony.uid),identities);
 });
+
+test('explicit neighbor navigation works when every cached slot is active',()=>{
+ A.reset();let world=A.ensure(F.create(11),1440,1000,{zoom:1,panX:0,panY:0},12);
+ for(let col=20;world.colonies.length<A.limit;col++)world=A.at(world,50,col,12).world;
+ A.focus(world.colonies.map(colony=>colony.id));const parent=world.colonies[12];
+ const next=A.neighbor(world,12,{row:0,col:100});
+ assert.ok(next.id>=0);assert.notEqual(next.id,12);
+ assert.equal(next.world.colonies[next.id].tileCol,parent.tileCol+100);
+ assert.equal(next.world.colonies[12].uid,parent.uid);assert.equal(next.world.colonies.length,A.limit);
+});
